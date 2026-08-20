@@ -3116,17 +3116,12 @@ async def deposit_trx(update, context, trx):
         response_text = (
             "✅ <b>Deposit Approved Automatically!</b>\n\n"
             f"💰 Added: <b>{money(amount)} ৳</b>\n"
-            "🤖 Payment SMS verified successfully.\n"
-            "💵 আপনার balance update করা হয়েছে।"
-        )
+            
     elif AUTO_PAYMENT_ENABLED:
         response_text = (
             "✅ <b>Deposit request received!</b>\n\n"
             f"💰 Amount: <b>{money(amount)} ৳</b>\n"
-            "🤖 SMS verification automatically হবে।\n"
-            "⏳ Verification complete হলে আপনার balance-এ টাকা automatically যোগ হবে।\n"
-            "ℹ️ Manual admin verification প্রয়োজন নেই।"
-        )
+        
     else:
         response_text = (
             "✅ <b>Deposit request submitted!</b>\n\n"
