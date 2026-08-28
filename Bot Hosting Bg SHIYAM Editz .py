@@ -52,11 +52,11 @@ def keep_alive():
 # --- End Flask Keep Alive ---
 
 # --- Configuration ---
-TOKEN = "8874791529:AAFSHrFz9EpQdZTRtHnDJAUS8lPbM8J7Yco"
-OWNER_ID = 7315122823
-ADMIN_ID = 7315122823
-YOUR_USERNAME = "@shiyam7444"
-UPDATE_CHANNEL = "https://t.me/shiyam744"
+TOKEN = "8856510779:AAEa_3b8bCmaKG_KFRZ0_TZH8UVrZT3eyDw"
+OWNER_ID = 6995426618
+ADMIN_ID = 6995426618
+YOUR_USERNAME = "@robotXmehedi"
+UPDATE_CHANNEL = "https://t.me/uniquemethod_404"
 
 # --- Binance Pay Integration Config ---
 BINANCE_API_KEY = "e0e4WavqDOqdmKRZHoNPcNt8TsYAUf17FdpVSasXm54QGVGs8JBp9ySkFTTPbcej"  # আপনার নতুন API Key দিন
